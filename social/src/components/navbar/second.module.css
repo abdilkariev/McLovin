@@ -1,0 +1,22 @@
+.nav a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    color: #626262;
+    width: fit-content;
+    text-decoration: none;
+}
+.nav img{
+    width: 20px;
+    margin-right: 15px;
+}
+.nav{
+    grid-area: n;
+  }
+.active{
+    color: #1876f2;
+}
+.item a.activeLink {
+    color: #1876f2;
+}
